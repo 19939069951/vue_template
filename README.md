@@ -1,18 +1,22 @@
 # vue_template
 
-## Project setup
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 启动项目
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 测试环境打包
 ```
-npm run build
+npm run build:dev
+```
+### 线上环境打包
+```
+npm run build:prod
 ```
 ### git operations
 ```shell
@@ -37,5 +41,3 @@ npm run commit
 | chore    | 变更构建流程或辅助工具(比如更改测试环境)                     |
 | revert   | 代码回退                                                     |
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
