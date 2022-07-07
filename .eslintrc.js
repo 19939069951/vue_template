@@ -1,3 +1,9 @@
+/*
+ * @Description: eslint 文件校验
+ * @Author: ligy
+ * @Date: 2022-07-07 16:29:17
+ * @LastEditTime: 2022-07-07 17:09:34
+ */
 module.exports = {
   root: true,
   env: {
@@ -5,7 +11,9 @@ module.exports = {
   },
   extends: [
     'plugin:vue/vue3-essential',
-    '@vue/standard'
+    'eslint:recommended',
+    '@vue/prettier',
+    'plugin:prettier/recommended'
   ],
   parserOptions: {
     parser: '@babel/eslint-parser'
