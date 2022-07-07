@@ -2,7 +2,7 @@
  * @Description: eslint 文件校验
  * @Author: ligy
  * @Date: 2022-07-07 16:29:17
- * @LastEditTime: 2022-07-07 17:09:34
+ * @LastEditTime: 2022-07-07 17:11:44
  */
 module.exports = {
   root: true,
@@ -12,7 +12,7 @@ module.exports = {
   extends: [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
-    '@vue/prettier',
+    '@vue/standard',
     'plugin:prettier/recommended'
   ],
   parserOptions: {
